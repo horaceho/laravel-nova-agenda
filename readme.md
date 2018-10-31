@@ -1,6 +1,8 @@
 ## About Laravel Nova Agenda
 Laravel Nova Agenda is an event calendar built from Laravel Nova Tool.
 
+![Laravel Nova Agenda](https://raw.githubusercontent.com/horaceho/laravel-nova-agenda/master/resources/images/nova-ant-design-vue.png)
+
 ## Getting Start
 Create a new Laravel application with Laravel Nova following the instructions on offical websites:
 - [Laravel](https://laravel.com/docs/master)
