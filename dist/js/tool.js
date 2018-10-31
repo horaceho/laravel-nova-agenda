@@ -60,43 +60,47 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 125);
 /******/ })
 /************************************************************************/
-/******/ ([
-/* 0 */
+/******/ ({
+
+/***/ 125:
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(1);
-module.exports = __webpack_require__(11);
+__webpack_require__(126);
+module.exports = __webpack_require__(143);
 
 
 /***/ }),
-/* 1 */
-/***/ (function(module, exports, __webpack_require__) {
 
+/***/ 126:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 Nova.booting(function (Vue, router) {
     router.addRoutes([{
         name: 'agenda',
         path: '/agenda',
-        component: __webpack_require__(2)
+        component: __webpack_require__(127)
     }]);
 });
 
 /***/ }),
-/* 2 */
+
+/***/ 127:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(3)
+  __webpack_require__(128)
 }
-var normalizeComponent = __webpack_require__(8)
+var normalizeComponent = __webpack_require__(133)
 /* script */
-var __vue_script__ = __webpack_require__(9)
+var __vue_script__ = __webpack_require__(134)
 /* template */
-var __vue_template__ = __webpack_require__(10)
+var __vue_template__ = __webpack_require__(142)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -135,17 +139,18 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 3 */
+
+/***/ 128:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(4);
+var content = __webpack_require__(129);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(6)("6e5db1d0", content, false, {});
+var update = __webpack_require__(131)("6e5db1d0", content, false, {});
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
@@ -161,10 +166,11 @@ if(false) {
 }
 
 /***/ }),
-/* 4 */
+
+/***/ 129:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(5)(false);
+exports = module.exports = __webpack_require__(130)(false);
 // imports
 
 
@@ -175,7 +181,8 @@ exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\
 
 
 /***/ }),
-/* 5 */
+
+/***/ 130:
 /***/ (function(module, exports) {
 
 /*
@@ -257,7 +264,8 @@ function toComment(sourceMap) {
 
 
 /***/ }),
-/* 6 */
+
+/***/ 131:
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -276,7 +284,7 @@ if (typeof DEBUG !== 'undefined' && DEBUG) {
   ) }
 }
 
-var listToStyles = __webpack_require__(7)
+var listToStyles = __webpack_require__(132)
 
 /*
 type StyleObject = {
@@ -485,7 +493,8 @@ function applyToTag (styleElement, obj) {
 
 
 /***/ }),
-/* 7 */
+
+/***/ 132:
 /***/ (function(module, exports) {
 
 /**
@@ -518,7 +527,8 @@ module.exports = function listToStyles (parentId, list) {
 
 
 /***/ }),
-/* 8 */
+
+/***/ 133:
 /***/ (function(module, exports) {
 
 /* globals __VUE_SSR_CONTEXT__ */
@@ -627,7 +637,8 @@ module.exports = function normalizeComponent (
 
 
 /***/ }),
-/* 9 */
+
+/***/ 134:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -659,7 +670,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 10 */
+
+/***/ 142:
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -740,10 +752,12 @@ if (false) {
 }
 
 /***/ }),
-/* 11 */
+
+/***/ 143:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ })
-/******/ ]);
+
+/******/ });
