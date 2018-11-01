@@ -55,7 +55,7 @@ class Event extends Model
 ## Making Of
 This section is a step-by-step guide to build Laravel Nova Agenda. Once Laravel and Laravel Nova are setup up properly, follow the [Laravel Nova documentation](https://nova.laravel.com/docs/) to create a blank tool:
 ````
-php artisan nova:resource-tool horaceho/agenda
+php artisan nova:tool horaceho/agenda
 
 Would you like to install the tool's NPM dependencies? (yes/no) [yes]:
 > yes
